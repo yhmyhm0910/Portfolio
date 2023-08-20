@@ -1,0 +1,25 @@
+.scroller {
+    height: 1.4em;
+    line-height: 1.4em;
+    position: relative;
+    overflow: hidden;
+    width: 25em;
+  }
+  .scroller > span {
+    position: absolute;
+    top: 0;
+    animation: slide 7s infinite;
+    font-weight: bold;
+    font-size: larger;
+  }
+  @keyframes slide {
+    0% {
+      top: 0;
+    }
+    33.33% {
+      top: -1.2em;
+    }
+    66.66% {
+      top: -2.4em;
+    }
+  }
