@@ -5,8 +5,10 @@
   jerryyip.net
 </h1>
 
+**Visit the website on https://jerryyip.net**
+<br/>It is deployed on AWS S3. 
 
-## 🛠 Installation & Set Up
+## Installation & Set Up
 
 1. Install node modules
 
