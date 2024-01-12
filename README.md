@@ -5,9 +5,14 @@
   jerryyip.net
 </h1>
 
+<<<<<<< HEAD
 This is my personal portfolio website. It is hosted on AWS S3 static website.
+=======
+**Visit the website on https://jerryyip.net**
+<br/>It is deployed on AWS S3. 
+>>>>>>> c390f0433d67f17c5c2165f613970665daab5cdd
 
-## 🛠 Installation & Set Up
+## Installation & Set Up
 
 1. Install node modules
 
