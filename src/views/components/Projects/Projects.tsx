@@ -1,10 +1,10 @@
 // Chakra imports
-import { SimpleGrid, Text, useColorModeValue } from '@chakra-ui/react';
+import { Text, useColorModeValue } from '@chakra-ui/react';
 // Custom components
 import Card from 'components/card/Card';
 import CanTone from './CanTone';
 import FYPIoT from './FYPIoT';
-import IcloudToDropbox from './IcloudToDropbox';
+import IcloudToLocal from './IcloudToLocal';
 import Portfolio from './Portfolio';
 
 // Assets
@@ -16,13 +16,13 @@ export default function Projects(props: { [x: string]: any }) {
 	const cardShadow = useColorModeValue('0px 18px 40px rgba(112, 144, 176, 0.12)', 'unset');
 	return (
 		<Card paddingTop='0' marginTop='1vh' boxShadow={cardShadow} {...rest}>
-			<Text color={textColorPrimary} fontWeight='bold' fontSize='3xl' mt='10px' mb='4px'>
-				Projects
+			<Text color={textColorPrimary} fontWeight='bold' fontSize='3xl' mt='10px' mb='4px' id='Projects'>
+				Major Projects
 			</Text>
+			<IcloudToLocal/> 
 			<CanTone/>
 			<FYPIoT/>
 			<Portfolio/>
-			<IcloudToDropbox/> 
 		</Card>
 	);
 }

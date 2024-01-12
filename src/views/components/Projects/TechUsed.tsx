@@ -1,7 +1,6 @@
 // Chakra imports
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 // Custom components
-import Card from 'components/card/Card';
 
 type Props = {
     logo: string;

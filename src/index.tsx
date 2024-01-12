@@ -13,7 +13,6 @@ ReactDOM.render(
 		<Router history={history}>
 			<Switch>
 				<Route path="*">
-					<Redirect to="/"/>
 					<Layout/>
 				</Route>
 			</Switch>

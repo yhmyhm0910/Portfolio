@@ -27,7 +27,7 @@ export default function Footer() {
 				mb={{ base: '20px', xl: '0px' }}>
 				{' '}
 				<Text as='span' fontWeight='500' ms='4px'>
-					Personal Portfolio Website. Made with passion. {new Date().getFullYear()}
+					Personal Portfolio Website. Last update: 05/01/2024
 				</Text>
 			</Text>
 			{/*

@@ -84,25 +84,27 @@ function Sidebar() {
 							Fullstack Developer
 						</span>
 					</Box>
-					<Flex paddingTop='2vh' gap='0.5vw'>
+					<Text paddingTop='2vh' fontSize='l' fontWeight='bold' >Guelph, ON, Canada</Text>
+					<Flex  gap='0.5vw'>
 						<Link href={githubLink} isExternal>
 							<Icon as={AiFillGithub} boxSize={6}/>
 						</Link>
 						<Link href={linkedInLink} isExternal>
 							<Icon as={AiFillLinkedin} boxSize={6}/>
 						</Link>
-						<Link href={igLink} isExternal>
+						{/* <Link href={igLink} isExternal>
 							<Icon as={AiOutlineInstagram} boxSize={6}/>
 						</Link>
 						<button onClick={handleCopyToClipboard}>
 							<Icon as={AiOutlineMail} boxSize={6}/>
-						</button>
+						</button>*/}
 					</Flex>
-					{isCopied ? 
+					{/*isCopied ? 
 						<Box display='inline-block' paddingLeft='0.3vw' paddingRight='0.3vw' bgColor='green' color='white'>
 							<Text>Email address copied</Text> 
 						</Box>
-					: <></>}
+					: <></>*/}
+					
 				</Box>
 				
 			</Flex>
@@ -168,7 +170,8 @@ export function SidebarResponsive() {
 						Fullstack Developer
 					</span>
 				</Box>
-				<Flex paddingTop='2vh' gap='0.5vw'>
+				<Text paddingTop='2vh' fontSize='l' fontWeight='bold' >Guelph, ON, Canada</Text>
+				<Flex  gap='0.5vw'>
 					<Link href={githubLink} isExternal>
 							<Icon as={AiFillGithub} boxSize={6}/>
 						</Link>

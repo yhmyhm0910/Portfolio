@@ -20,7 +20,7 @@ export function Experience() {
         mb='4px' 
         zIndex={1}
         bgColor={bgColor}>
-            Experiences
+            Working Experiences and Education
         </Text>
         <section className="design-section">
             <div className="timeline">
@@ -32,16 +32,46 @@ export function Experience() {
                     <div className="timeline-circle"></div>
                 </div>
 
+                <div className={mode==='dark-mode' ? 'timeline-component timeline-content' : 'timeline-component timeline-content-light'}>
+                    <Text fontSize='xl'>🎓  University of Guelph</Text>
+                    <Text fontSize='l'>📍  Guelph, ON</Text>
+                    <Text fontSize='l'>📅  Fall 2023 - Fall 2024 (Anticipated)</Text>
+                    <Text fontSize='xl'>M.Eng in Computer Engineering</Text>
+                </div>
+
+                <div className={mode==='dark-mode' ? 'timeline-component timeline-content' : 'timeline-component timeline-content-light'}>
+                    <Text fontSize='xl'>🧑🏼‍💻  Itchi Technology Limited</Text>
+                    <Text fontSize='l'>📍  Hong Kong, Hong Kong</Text>
+                    <Text fontSize='l'>📅  Summer 2023</Text>
+                    <Text fontSize='xl'>Software Developer Intern</Text>
+                </div>
+
+                <div className="timeline-middle">
+                    <div className="timeline-circle"></div>
+                </div>
+
+                <div className="timeline-empty">
+                </div>
+
+                <div className="timeline-empty">
+                </div>
+
+                <div className="timeline-middle">
+                    <div className="timeline-circle"></div>
+                </div>
+
+                <div className={mode==='dark-mode' ? 'timeline-component timeline-content' : 'timeline-component timeline-content-light'}>
+                    <Text fontSize='xl'>🎓  The Hong Kong Polytechnic University</Text>
+                    <Text fontSize='l'>📍  Hong Kong, Hong Kong</Text>
+                    <Text fontSize='l'>📅  2019 - 2023</Text>
+                    <Text fontSize='xl'> B.Eng in Electrical Engineering</Text>
+                </div>
+
                 <div className={mode==='dark-mode' ? 'timeline-component timeline-content' : 'timeline-component timeline-content-light'} >
-                    <Text fontSize='l'>👷🏼‍♂️  Nan Fung Group (HK)</Text>
-                    <Text fontSize='xs'>2022/06 - 2022/08</Text>
-                    <Text fontSize='l'>Building Services (Intern)</Text>
-                </div>
-
-                <div className={mode==='dark-mode' ? 'timeline-component timeline-content' : 'timeline-component timeline-content-light'}>
-                    <Text fontSize='l'>🎓  The Hong Kong Polytechnic University</Text>
-                    <Text fontSize='xs'>2019 - 2023</Text>
-                    <Text fontSize='l'>B.Eng in Electrical Engineering</Text>
+                    <Text fontSize='xl'>🧑🏼‍💻  Nan Fung Group</Text>
+                    <Text fontSize='l'>📍  Hong Kong, Hong Kong</Text>
+                    <Text fontSize='l'>📅  Summer 2022</Text>
+                    <Text fontSize='xl'>Building Services Intern</Text>
                 </div>
 
                 <div className="timeline-middle">
@@ -59,20 +89,10 @@ export function Experience() {
                 </div>
 
                 <div className={mode==='dark-mode' ? 'timeline-component timeline-content' : 'timeline-component timeline-content-light'}>
-                    <Text fontSize='l'>🧑🏼‍💻  Itchi Technology Limited (HK)</Text>
-                    <Text fontSize='xs'>2023/06 - 2023/08</Text>
-                    <Text fontSize='l'>Software Developer (Intern)</Text>
-                </div>
-
-                <div className={mode==='dark-mode' ? 'timeline-component timeline-content' : 'timeline-component timeline-content-light'}>
-
-                    <Text fontSize='l'>🎓  University of Guelph</Text>
-                    <Text fontSize='xs'>2023/09 - Current</Text>
-                    <Text fontSize='l'>M.Eng in Computer Engineering</Text>
-                </div>
-
-                <div className="timeline-middle">
-                    <div className="timeline-circle"></div>
+                    <Text fontSize='xl'>🧑🏼‍💻  Hong Kong Productivity Council</Text>
+                    <Text fontSize='l'>📍  Hong Kong, Hong Kong</Text>
+                    <Text fontSize='l'>📅  Summer 2021</Text>
+                    <Text fontSize='xl'> Smart City Division Intern</Text>
                 </div>
 
                 <div className="timeline-empty">

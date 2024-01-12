@@ -1,5 +1,5 @@
 // Chakra imports
-import { Text, useColorModeValue, Flex, Box } from '@chakra-ui/react';
+import { Text, useColorModeValue, Flex, Box, Link } from '@chakra-ui/react';
 // Custom components
 import Card from 'components/card/Card';
 import { useState, useRef } from 'react';
@@ -30,7 +30,7 @@ export default function Portfolio(props: { [x: string]: any }) {
 		<Card paddingTop='0' {...rest}>
 			<div ref={headerRef}/>
             <CommonHeader 
-			title='Portfolio Website' 
+			title='4. Portfolio Website' 
 			smallTitle='Now you are watching it! 👻' 
 			isVisible={isVisible} 
 			setIsVisible={setIsVisible}
@@ -54,7 +54,12 @@ export default function Portfolio(props: { [x: string]: any }) {
 				</Box>
 
 				<Text>
-					Github Repo: [to be uploaded]
+					This website is hosted on AWS S3 with an HTTPS certificate.
+					<br/>
+					Github Repo:{' '}
+					<Link href='https://github.com/yhmyhm0910/Portfolio' style={{textDecoration: 'underline'}} isExternal>
+						https://github.com/yhmyhm0910/Portfolio
+					</Link>
 				</Text>
 			</Flex>	
 

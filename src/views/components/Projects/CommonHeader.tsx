@@ -17,6 +17,7 @@ interface Props {
     setIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
     style?: any;
     handleClick?: Function;
+    id?: string;
   }
 
 const CommonHeader = (props: Props) => {
@@ -51,14 +52,15 @@ const CommonHeader = (props: Props) => {
         style={style}
         paddingTop='1vh'
         borderRadius='1vw'
+        id={props.id}
         onClick={handleClick}>
             <Flex mb="8px" justifyContent='space-between' align='center'>
                 <Box paddingLeft='1vw'>
                     <Flex alignItems='baseline' gap='1vw'>
-                        <Text color={textColorPrimary} fontSize='22px' fontWeight='700' lineHeight='100%'>
+                        <Text color={textColorPrimary} fontSize='26px' fontWeight='700' lineHeight='100%'>
                             {props.title}
                         </Text>
-                        <Text color={textColorSecondary} fontSize='16px'>
+                        <Text color={textColorSecondary} fontSize='20px'>
                             {props.smallTitle}
                         </Text>
                     </Flex>
