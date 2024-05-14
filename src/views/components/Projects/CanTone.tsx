@@ -49,7 +49,7 @@ export default function CanTone(props: { [x: string]: any }) {
 		<Card paddingTop='0' {...rest}>
 			<div ref={headerRef}/>
             <CommonHeader 
-			title='2. CanTone-AI' 
+			title='1. CanTone-AI' 
 			smallTitle='Itchi Technology Limited, Hong Kong' 
 			isVisible={isVisible} 
 			setIsVisible={setIsVisible} 

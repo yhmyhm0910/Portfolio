@@ -35,7 +35,7 @@ export function Experience() {
                 <div className={mode==='dark-mode' ? 'timeline-component timeline-content' : 'timeline-component timeline-content-light'}>
                     <Text fontSize='xl'>🎓  University of Guelph</Text>
                     <Text fontSize='l'>📍  Guelph, ON</Text>
-                    <Text fontSize='l'>📅  Fall 2023 - Fall 2024 (Anticipated)</Text>
+                    <Text fontSize='l'>📅  Fall 2023 - July 2024 (Anticipated)</Text>
                     <Text fontSize='xl'>M.Eng in Computer Engineering</Text>
                 </div>
 

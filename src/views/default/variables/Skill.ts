@@ -17,6 +17,7 @@ import sklearn_logo from 'assets/img/portfolio/skills/sklearn_logo.png'
 import opencv_logo from 'assets/img/portfolio/skills/opencv_logo.png'
 import ubuntu_logo from 'assets/img/portfolio/skills/ubuntu_logo.png'
 import git_logo from 'assets/img/portfolio/skills/git_logo.png'
+import expo_logo from 'assets/img/portfolio/skills/expo_icon.png'
 
 type RowObj = {
 	name: object | string;
@@ -60,6 +61,10 @@ export const Library: RowObj[] = [
 		progress: 95,
 	},
 	{
+		name: [react_logo, 'React-Native'],
+		progress: 95,
+	},
+	{
 		name: [nodejs_logo, 'NodeJS'],
 		progress: 95,
 	},
@@ -95,11 +100,15 @@ export const Tools: RowObj[] = [
 		progress: 90,
 	},
 	{
+		name: [firebase_logo, 'Firebase'],
+		progress: 90,
+	},
+	{
 		name: [azuresql_logo, 'Azure SQL'],
 		progress: 85,
 	},
 	{
-		name: [firebase_logo, 'Firebase'],
+		name: [expo_logo, 'Expo'],
 		progress: 85,
 	},
 	{

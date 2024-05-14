@@ -30,7 +30,7 @@ export default function Portfolio(props: { [x: string]: any }) {
 		<Card paddingTop='0' {...rest}>
 			<div ref={headerRef}/>
             <CommonHeader 
-			title='4. Portfolio Website' 
+			title='5. Portfolio Website' 
 			smallTitle='Now you are watching it! 👻' 
 			isVisible={isVisible} 
 			setIsVisible={setIsVisible}

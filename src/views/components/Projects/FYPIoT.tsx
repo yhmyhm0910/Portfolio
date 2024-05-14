@@ -37,7 +37,7 @@ export default function CanTone(props: { [x: string]: any }) {
 		<Card paddingTop='0' {...rest}>
 			<div ref={headerRef}/>
             <CommonHeader 
-			title='3. IoT Maintenance on Railway Point Machines' 
+			title='4. IoT Maintenance on Railway Point Machines' 
 			smallTitle='Undergraduate Final-year Project' 
 			isVisible={isVisible} 
 			setIsVisible={setIsVisible}

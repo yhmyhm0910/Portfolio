@@ -34,7 +34,7 @@ export default function IcloudToLocal(props: { [x: string]: any }) {
 		<Card paddingTop='0' {...rest}>
 			<div ref={headerRef}/>
             <CommonHeader 
-			title='1. Filter iCloud Photos with Object Detection (DETR) ' 
+			title='2. Human-Detection-Filter-iCloud-Photos' 
 			smallTitle='Personal project' 
 			isVisible={isVisible} 
 			setIsVisible={setIsVisible}
