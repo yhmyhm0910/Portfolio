@@ -60,7 +60,7 @@ export default function IcloudToLocal(props: { [x: string]: any }) {
 				</Text>
 				<Text>
 					Learn more in Github Repo:{' '}
-					<Link href='https://github.com/yhmyhm0910/DETR-Filter-iCloud-Photos' isExternal style={{textDecoration: 'underline'}}>
+					<Link href='https://github.com/yhmyhm0910/GymLogCalendar' isExternal style={{textDecoration: 'underline'}}>
 						https://github.com/yhmyhm0910/GymLogCalendar
 					</Link>
 				</Text>
