@@ -13,6 +13,8 @@ import docker_logo from 'assets/img/portfolio/skills/docker_logo.png'
 import firebase_logo from 'assets/img/portfolio/skills/firebase_logo.png'
 import numpy_logo from 'assets/img/portfolio/skills/numpy_logo.png'
 import tensorflow_logo from 'assets/img/portfolio/skills/tensorflow_logo.png'
+import pytorch_logo from 'assets/img/portfolio/skills/pytorch_logo.png'
+import pandas_logo from 'assets/img/portfolio/skills/pandas_logo.png'
 import sklearn_logo from 'assets/img/portfolio/skills/sklearn_logo.png'
 import opencv_logo from 'assets/img/portfolio/skills/opencv_logo.png'
 import ubuntu_logo from 'assets/img/portfolio/skills/ubuntu_logo.png'
@@ -69,16 +71,24 @@ export const Library: RowObj[] = [
 		progress: 95,
 	},
 	{
+		name: [sklearn_logo, 'Scikit-Learn'],
+		progress: 90,
+	},
+	{
 		name: [numpy_logo, 'Numpy'],
-		progress: 80,
+		progress: 90,
+	},
+	{
+		name: [pytorch_logo, 'PyTorch'],
+		progress: 85,
 	},
 	{
 		name: [tensorflow_logo, 'Tensorflow'],
-		progress: 80,
+		progress: 85,
 	},
 	{
-		name: [sklearn_logo, 'Scikit-Learn'],
-		progress: 80,
+		name: [pandas_logo, 'Pandas'],
+		progress: 85,
 	},
 	{
 		name: [opencv_logo, 'OpenCV'],
@@ -113,6 +123,6 @@ export const Tools: RowObj[] = [
 	},
 	{
 		name: [docker_logo, 'Docker'],
-		progress: 70,
+		progress: 80,
 	}
 ];

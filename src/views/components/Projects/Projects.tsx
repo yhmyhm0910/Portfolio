@@ -18,7 +18,7 @@ export default function Projects(props: { [x: string]: any }) {
 	return (
 		<Card paddingTop='0' marginTop='1vh' boxShadow={cardShadow} {...rest}>
 			<Text color={textColorPrimary} fontWeight='bold' fontSize='3xl' mt='10px' mb='4px' id='Projects'>
-				Projects
+				Software Development Projects
 			</Text>
 			<CanTone/>
 			<IcloudToLocal/>

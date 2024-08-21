@@ -34,9 +34,10 @@ export function Experience() {
 
                 <div className={mode==='dark-mode' ? 'timeline-component timeline-content' : 'timeline-component timeline-content-light'}>
                     <Text fontSize='xl'>🎓  University of Guelph</Text>
-                    <Text fontSize='l'>📍  Guelph, ON</Text>
-                    <Text fontSize='l'>📅  Fall 2023 - July 2024 (Anticipated)</Text>
+                    <Text fontSize='l'>📍  Guelph, ON, Canada</Text>
+                    <Text fontSize='l'>📅  Fall 2023 - Summer 2024</Text>
                     <Text fontSize='xl'>M.Eng in Computer Engineering</Text>
+                    <Text fontSize='l'>Cumulative GPA: 3.97 (91/100)</Text>
                 </div>
 
                 <div className={mode==='dark-mode' ? 'timeline-component timeline-content' : 'timeline-component timeline-content-light'}>

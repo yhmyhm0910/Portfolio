@@ -77,14 +77,15 @@ function Sidebar() {
 				>
 				<Box>
 					<Text fontSize='5xl'>Jerry Yip</Text>
-					<Box className='scroller'>
+					{/* <Box className='scroller'>
 						<span>
-							M.Eng CE Student<br/>
+							Recent CE Graduate<br/>
 							Software Engineer<br/>
-							Fullstack Developer
+							Technology
 						</span>
-					</Box>
-					<Text paddingTop='2vh' fontSize='l' fontWeight='bold' >Guelph, ON, Canada</Text>
+					</Box> */}
+					<Text paddingTop='1vh' fontSize='l' fontWeight='bold' >Recent Computer Engineering Graduate</Text>
+					<Text paddingTop='0vh' fontSize='l' fontWeight='bold' >Markham, ON, Canada</Text>
 					<Flex  gap='0.5vw'>
 						<Link href={githubLink} isExternal>
 							<Icon as={AiFillGithub} boxSize={6}/>
