@@ -185,15 +185,15 @@ export function SidebarResponsive() {
         <Text fontSize="5xl">Jerry Yip</Text>
         <Box className="scroller">
           <span>
-            M.Eng CE Student
+            Fullstack Developer
+            <br />
+            Backend Developer
             <br />
             Software Engineer
-            <br />
-            Fullstack Developer
           </span>
         </Box>
         <Text paddingTop="2vh" fontSize="l" fontWeight="bold">
-          Guelph, ON, Canada
+          Hong Kong
         </Text>
         <Flex gap="0.5vw">
           <Link href={githubLink} isExternal>
